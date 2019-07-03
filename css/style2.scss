@@ -1,0 +1,32 @@
+body{
+    background-image: url(/img/bgcolor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;;
+}
+
+
+#table{
+    display: block;
+    width: 60%;
+    border: rgb(100, 100, 156) solid 1px;;
+    margin: 10rem auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    tr{
+        background-color:white;
+        width: 100%;
+        font-size: 1.3rem;
+        th{
+            height: 40px;
+            background-color: white;
+            width: 40%;
+           
+        }
+        td{
+            height: 35px;
+            font-size: 1.1rem;
+        }
+
+    }
+}
